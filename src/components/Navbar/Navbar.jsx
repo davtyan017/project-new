@@ -8,10 +8,10 @@ const Navbar = ({ searchQuery, setSearchQuery, handleSearch }) => {
   return (
     <nav className="nav">
       <div>
-        <a href="#">
+        <a href="https://filmsdavtyan.netlify.app/">
           <img className="netflix" src={netflix} alt="" />
         </a>
-        <a href="#">browse</a>
+        <a href="https://filmsdavtyan.netlify.app/">browse</a>
         <p>DVD</p>
       </div>
       <div>
