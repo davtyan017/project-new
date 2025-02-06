@@ -1,0 +1,14 @@
+.pagination {
+  max-width: 1860px;
+  padding: 20px 0 0 28px;
+  display: flex;
+  gap: 10px;
+  button {
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: black;
+    color: wheat;
+  }
+}

@@ -1,0 +1,31 @@
+.movie-list {
+  display: flex;
+  max-width: 1860px;
+  margin: auto;
+  gap: 5px;
+  cursor: grab;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  transition: overflow 0.5s ease-in-out;
+  animation: delay-overflow 0s forwards;
+}
+
+@keyframes delay-overflow {
+  0% {
+    overflow: hidden;
+  }
+  100% {
+    overflow: auto;
+  }
+}
+
+.movie-list::-webkit-scrollbar {
+  height: 7px;
+}
+.movie-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+img {
+  user-select: none;
+}

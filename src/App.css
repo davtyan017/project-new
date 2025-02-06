@@ -1,0 +1,32 @@
+.vote {
+  background-color: #333;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 0 3px #333;
+}
+
+.vote b {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  background-color: #333;
+  inset: 3px;
+  border-radius: 50%;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+.movies .vote {
+  margin-top: auto;
+}
+.listname {
+  margin-left: 30px;
+  color: white;
+  padding: 15px 0;
+}

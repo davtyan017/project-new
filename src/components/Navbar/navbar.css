@@ -1,0 +1,58 @@
+nav {
+  background-color: black;
+  padding: 10px 40px;
+  transition: 0.5s;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999999;
+  translate: 0 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nav_form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    padding: 15px;
+    input {
+      background-color: black;
+      border: none;
+      padding: 5px;
+      color: white;
+      &::placeholder {
+        color: white;
+        font-size: 15px;
+      }
+    }
+    img {
+      color: white;
+      -webkit-filter: invert(1);
+      filter: invert(1);
+      width: 15px;
+    }
+  }
+  .netflix {
+    width: 140px;
+  }
+  p {
+    color: white;
+  }
+  a {
+    color: red;
+  }
+}
+
+.bell {
+  width: 24px;
+  color: white;
+  background-color: black;
+}
+
+nav > div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
