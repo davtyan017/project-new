@@ -2,14 +2,16 @@ import React from "react";
 import "./navbar.css";
 import netflix from "../../assets/Netflix-logo.png";
 import bell from "../..//assets/43.png";
-import search_logo from "../../assets/icons8-search.svg"
+import search_logo from "../../assets/icons8-search.svg";
 
 const Navbar = ({ searchQuery, setSearchQuery, handleSearch }) => {
   return (
     <nav className="nav">
       <div>
-        <a href="*"><img className="netflix" src={netflix} alt="" /></a>
-        <a href="#">browse</a>
+        <a href="/home">
+          <img className="netflix" src={netflix} alt="" />
+        </a>
+        <a href="/home">browse</a>
         <p>DVD</p>
       </div>
       <div>
