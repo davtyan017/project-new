@@ -4,7 +4,6 @@ import Layout from "../Pages/Layout/Layout";
 import Home from "../Pages/HomePage/Home";
 import TVShowDetails from "../Pages/TVShowDetails/TVShowDetails";
 import Genres from "../Pages/Genres/Genres";
-import People from "../Pages/People/People";
 import TVShows from "../Pages/TVShows/TVShows";
 import GenreDetails from "../Pages/GenresDetails/GenresDetails";
 import ShowDetails from "../Pages/ShowDetails/ShowDetails";  
