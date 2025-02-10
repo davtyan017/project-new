@@ -1,0 +1,39 @@
+.tvshows {
+  background-color: none;
+  .navtvshows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    h2 {
+      color: red;
+    }
+    a {
+      color: red;
+    }
+  }
+
+  .post {
+    display: flex;
+    gap: 15px;
+    ul {
+      /* border: 2px solid red; */
+      width: 200px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      flex-direction: column;
+      padding: 15px;
+
+      li {
+        padding: 10px;
+        background-color: black;
+        border-radius: 15px;
+        a {
+          color: gray;
+        }
+      }
+    }
+  }
+}

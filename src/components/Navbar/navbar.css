@@ -56,3 +56,39 @@ nav > div {
   gap: 15px;
   align-items: center;
 }
+
+
+
+
+
+
+
+
+.browse-menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #141414;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #333;
+}
