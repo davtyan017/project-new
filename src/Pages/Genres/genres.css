@@ -1,0 +1,37 @@
+.genres {
+    .navgenres {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      padding: 15px;
+      h2 {
+        color: red;
+      }
+      a {
+        color: red;
+        font-size: larger;
+      }
+    }
+  
+    .genre-list {
+      display: flex;
+      gap: 25px;
+      ul {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        flex-direction: column;
+        padding: 15px;
+  
+        li {
+          padding: 10px;
+          background-color: black;
+          border-radius: 15px;
+          color: gray;
+        }
+      }
+    }
+  }
+  

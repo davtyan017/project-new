@@ -1,4 +1,3 @@
-// Navbar.jsx
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
@@ -12,7 +11,6 @@ const Navbar = ({ searchQuery, setSearchQuery, handleSearch }) => {
   return (
     <nav className="nav">
       <div>
-        {/* Home navigation */}
         <Link to="/">
           <img className="netflix" src={netflix} alt="Netflix Logo" />
         </Link>
@@ -24,7 +22,6 @@ const Navbar = ({ searchQuery, setSearchQuery, handleSearch }) => {
           <p className="browse">Browse</p>
           {isOpen && (
             <div className="dropdown">
-              {/* Updated link: path now matches "tvshows" */}
               <Link to="/tvshows">TV Shows</Link>
               <Link to="/genres">Genres</Link>
               <Link to="/people">People</Link>

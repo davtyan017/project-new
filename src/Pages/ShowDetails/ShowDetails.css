@@ -1,0 +1,19 @@
+.show-details{
+    div{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: gray;
+        h3{
+            font-size: 50px;
+        }
+        p{
+            font-size: large;
+        }
+        img{
+            height: 250px;
+            width: 250px;
+        }
+    }
+}
